@@ -1,0 +1,37 @@
+#Netflix Show Gutenberg Block
+
+This plugin adds a Gutenberg block to display a Netflix show.
+
+## Installation
+
+1. Upload the plugin files to the `/wp-content/plugins/netflix-show-block` directory, or install the plugin through the WordPress plugins screen directly.
+
+2. Activate the plugin through the 'Plugins' screen in WordPress
+
+3. Use the Block inspector add the API key and enter a title of a netflix show.
+
+## Usage
+
+1. Add the block to a post or page.
+
+2. Enter the title of a Netflix show.
+
+3. Click the "Fetch Show Data" button.
+
+4. The show data will be displayed in the block.
+
+## Development
+
+1. Clone the repository
+
+2. Run `npm install`
+
+3. Run `npm run dev` to watch for file changes
+
+4. Run `npm run build` to build the plugin
+
+5. edit files within the `src` directory
+
+## Changelog
+
+### 1.0.0 initial release of the plugin. Gets a single show from the TMDb API and displays it in the block.

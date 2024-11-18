@@ -1,0 +1,50 @@
+/*!****************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/styles.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************/
+.fetch-button {
+  background-color: #3498db;
+  color: white;
+  padding: 10px 20px;
+  margin: 0 0 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: all 0.3s ease;
+}
+.fetch-button:hover {
+  background-color: rgb(33.1380753138, 125.1882845188, 186.8619246862);
+}
+
+.netflix-show-block {
+  border: 2px solid #ccc;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+.netflix-show-block .show-info {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  gap: 15px;
+  background-color: #f9f9f9;
+}
+.netflix-show-block .show-info img {
+  max-width: 150px;
+  height: auto;
+  border-radius: 4px;
+}
+.netflix-show-block .show-info .show-details {
+  display: flex;
+  flex-direction: column;
+}
+.netflix-show-block .show-info .show-details h3 {
+  font-size: 1.5em;
+  line-height: 1em;
+  margin: 0 0 10px;
+  color: #3498db;
+}
+.netflix-show-block .show-info .show-details p {
+  font-size: 1em;
+  color: #333;
+  margin: 0;
+}
